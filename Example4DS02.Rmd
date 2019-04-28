@@ -115,7 +115,7 @@ multiplot(ggp1, ggp2, cols=2)
 
 ```
 
-### GAM model for the water level
+## GAM model for the water level
 
 In this example, we only focus on the prediction of water levels.
 Since we have the history data, in the following model,
@@ -162,7 +162,7 @@ ggplot(data = f.data.lags.year368, aes(Date, Value)) +
 # summary(gam_lag368)
 ```
 
-### Prediction for tomorrow
+## Prediction for tomorrow
 
 Supposedly, we already know the water level of today and the previous days, and we are going to predict the water level for tomorrow. It means the model has to be trained each day, and then it makes a prediction for the next day. In the following graph, 84 'tomorrows' are predicted. The solid line represents the predicted value; the black dots, true values; and the grey belt, the prediction intervals.
 
@@ -240,7 +240,7 @@ ggplot(d1, aes(Date, Value))+
 
 ```
 
-### Prediction for the next 7 days
+## Prediction for the next 7 days
 
 We use the water levels of today and the previous days to predict the following seven days without using any updated information. The prediction intervals cover all true values. The following graphs contains 12 seven-day predictions.
 
