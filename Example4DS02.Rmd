@@ -22,11 +22,6 @@ library(scales)
 ```
 
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
-library(knitr)
-setwd("YOUR WORKING DIRECTORY")
-opts_knit$set(root.dir = "YOUR WORKING DIRECTORY")
-```
-```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 ### Please refer to the website:
 ### https://stackoverflow.com/questions/24387376/r-error-could-not-find-function-multiplot-using-cookbook-example
 # Multiple plot function
