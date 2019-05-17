@@ -311,7 +311,7 @@ ggplot(d1, aes(Date, Value))+
 
 ```
 
-**Remark to model:**
+**Remark to the model:**
 
 If we set "month" as a factor with 12 levels, we will get similar results, but with a little bit more freedom for the residuals. In this example, we will not go further into the discussion on overfitting, how to choose knots and lags, and whether treating "month" as a factor is good, etc.
 
